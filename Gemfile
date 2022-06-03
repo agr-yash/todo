@@ -7,13 +7,17 @@ ruby "3.1.2"
 gem "rails", "~> 7.0.3"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
+# gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
+
+gem 'sass-rails', '~> 5.0'
+
+gem 'turbolinks', '~> 5'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
@@ -38,7 +42,7 @@ gem "jbuilder"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
-gem "tzinfo-data"
+gem 'tzinfo-data', '~> 1.2021', '>= 1.2021.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
